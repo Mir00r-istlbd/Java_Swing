@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="file:/E:/projects/production/STANDALONES/rnd/Enrollment/DPFPClient/DPFPClient/src/wsdl/perpPartnerService.wsdl" uri="wsdl/perpPartnerService.wsdl"/>
+    <system systemId="https://180.211.162.70/service/PartnerService?wsdl" uri="wsdl/180.211.162.70/service/PartnerService.wsdl"/>
+    <system systemId="https://180.211.162.70:443/service/PartnerService?xsd=1" uri="wsdl/180.211.162.70_443/service/PartnerService.xsd_1.xsd"/>
+</catalog>

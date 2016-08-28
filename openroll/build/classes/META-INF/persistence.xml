@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="DPFPClientPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>database.entity.BioLookupData</class>
+    <class>database.entity.BioUser</class>
+    <class>database.entity.BioPerson</class>
+    <class>database.entity.BioBiometric</class>
+    <class>database.entity.District</class>
+    <class>database.entity.Division</class>
+    <class>database.entity.Upozila</class>
+    <class>database.entity.BioAttachment</class>
+    <class>database.entity.Eunion</class>
+    <class>database.entity.Village</class>
+    <class>database.entity.Postoffice</class>
+    <class>database.entity.City</class>
+    <class>database.entity.VoterArea</class>
+    <class>database.entity.Area</class>
+    <class>database.entity.BioRole</class>
+    <class>database.entity.BioOperation</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://192.168.0.35:3306/bio_enroll?useUnicode=true&amp;zeroDateTimeBehavior=convertToNull&amp;characterEncoding=UTF-8"/>
+      <property name="javax.persistence.jdbc.password" value="mrt"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.user" value="mrt"/>
+    </properties>
+  </persistence-unit>
+</persistence>
